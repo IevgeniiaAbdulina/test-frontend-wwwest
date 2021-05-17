@@ -1,1 +1,101 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* ----------------------------------------------
+[main Stylesheet]
+Project: Test Task Frontend
+---------------------------------------------- */
+/* ----------------------------------------------
+==== Table of Components ====
+
+* Template variables
+
+* Core styles
+    + Typography
+
+* Layouts
+    + Main
+    + Header
+    + Body
+    + Footer
+
+* Components
+    + Buttons
+    + Icons
+    + Cards
+    
+---------------------------------------------- */
+/* ---------------------------------------------- 
+    ==== Template variables ==== */
+/* ----------------------------------------------
+        ==== Core styles ==== */
+/* ==== Typography ====  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+}
+
+@media (max-width: 980px) {
+  h1 {
+    font-size: 48px;
+    line-height: 32px;
+  }
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 2.42px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 4.42px;
+}
+
+@media (max-width: 980px) {
+  h3 {
+    font-size: 28px;
+  }
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* ----------------------------------------------
+        ==== Layouts ==== */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1445px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+/* ----------------------------------------------
+        ==== Components ==== */
+/*# sourceMappingURL=style.css.map */

@@ -11,6 +11,12 @@ Project: Test Task Frontend
 * Core styles
     + Typography
 
+* Layouts
+    + Main
+    + Header
+    + Body
+    + Footer
+
 * Components
     + Buttons
     + Icons
@@ -27,6 +33,14 @@ Project: Test Task Frontend
         ==== Core styles ==== */
      
     @import "typography";
+
+    /* ----------------------------------------------
+        ==== Layouts ==== */
+    
+    @import "layouts/main";
+    // @import "layouts/header";
+    // @import "layouts/body";
+    // @import "layouts/footer";
     
     /* ----------------------------------------------
         ==== Components ==== */
