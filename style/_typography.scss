@@ -1,0 +1,75 @@
+/* ==== Typography ====  */
+
+// Font weights
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+//  Headings Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+$font-family-headings: 'Open Sans', sans-serif;
+$font-size-headings: 18px;
+
+// Paragraphs Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;700&display=swap'); 
+
+$font-family-paragraphs: 'Noto Sans', sans-serif;
+$font-size-paragraphs: 16px;
+
+body {
+  font-family: $font-family-paragraphs;
+  font-weight: $regular;
+  font-size: $font-size-paragraphs;
+}
+
+//  Headings Font Style
+h1 {
+    font-family: $font-family-headings;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 34px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    // color: #1652AC;
+
+    @media (max-width: 980px) {
+    font-size: 48px;
+    line-height: 32px;
+  }
+}
+
+h2 {
+    font-family: $font-family-headings;
+    font-style: normal;
+    font-weight: $bold;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    // text-transform: uppercase;
+    // color: #1652AC;
+}
+
+//  Secondary Headings Font
+h3 {
+    font-size: 20px;
+    font-weight: $medium;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    // text-transform: uppercase;
+    // color: #020303;
+
+    @media (max-width: 980px) {
+    font-size: 28px;
+  }
+}
+
+// Paragraphs Font
+p {
+    font-family: $font-family-paragraphs;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: $font-size-paragraphs;
+    line-height: 32px;
+    // color: #45494F;
+}
