@@ -1,0 +1,26 @@
+/* ==== Variables ==== */
+
+// Colors
+$color-headers: rgba(22, 82, 172, 1);
+$color-ink-blue: rgba(46, 117, 255, 1);
+$color-banner-blue-gradient: linear-gradient(180deg, rgba(22, 61, 161) 0%, rgba(0, 53, 132) 100%);
+$color-header-paragraph-text: rgba(2, 3, 3, 1);
+$color-body-paragraph-text: rgba(69, 73, 79, 1); // rgba(70, 76, 83, 1)
+$color-footer-header-grey: rgba(163, 173, 186, 1);
+$color-footer-paragraph-grey: rgba(158, 171, 187, 1);
+
+$color-divider: rgba(238, 240, 244, 1);
+$color-darker-display-grey: rgba(251, 253, 255, 1); // rgba(250, 251, 254, 1)
+
+$color-button-blue: rgba(0, 79, 199, 1);
+$color-button-blue-gradient: linear-gradient(180deg, rgb(12, 92, 214) 0%, rgba(0, 56, 140, 0) 100%);
+
+$color-carousel-indicators-active-border: rgba(190, 216, 255, 1); 
+$color-carousel-indicators-active-bg: rgba(0, 79, 199, 1);
+$color-carousel-indicators-active-bg-gradient: linear-gradient(180deg, rgb(0, 91, 228) 0%, rgba(0, 96, 241, 0) 100%);
+$color-carousel-indicators-border: rgba(0, 69, 172, 1);
+$color-carousel-indicators-bg: rgba(128, 171, 255, 1);
+
+// Layouts
+$layout-mobile: 375px;
+$layout-desktop: 1440px;
