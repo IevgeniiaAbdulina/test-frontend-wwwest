@@ -245,7 +245,7 @@ div#often-viewed {
   }
 }
 
-div#often-viewed .megabutton-blue {
+.megabutton-blue {
   background: -webkit-gradient(linear, left top, left bottom, from(#0C5CD6), to(rgba(0, 56, 140, 0))), #004FC7;
   background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
   border-style: inset;
@@ -258,6 +258,109 @@ div#often-viewed .megabutton-blue {
   padding: 24px;
   color: #FAFBFE;
   text-transform: uppercase;
+}
+
+section#contact {
+  margin-top: 48px;
+}
+
+section#contact .container {
+  padding: 0 32px;
+  margin: 0 0 8px;
+}
+
+@media (min-width: 600px) {
+  section#contact {
+    margin-top: 0;
+    padding: 72px 0;
+  }
+}
+
+section#contact h2 {
+  margin: 28px 0 32px;
+  font-size: 25px;
+  line-height: 43px;
+  letter-spacing: -0.4px;
+  color: #1652AC;
+  text-transform: none;
+}
+
+@media (min-width: 600px) {
+  section#contact h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+  }
+}
+
+section#contact p {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #45494F;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 600px) {
+  section#contact p {
+    ont-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #464C53;
+  }
+}
+
+section#contact p a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #2E75FF;
+}
+
+section#contact .megabutton-blue {
+  width: 100%;
+  text-transform: none;
+  padding: 18px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 600px) {
+  section#contact .megabutton-blue {
+    width: 80%;
+  }
+}
+
+section#contact .megabutton-blue p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FAFBFE;
+  margin: 0;
+  padding-left: 20px;
+}
+
+@media (min-width: 600px) {
+  section#contact .megabutton-blue p {
+    padding-left: 3em;
+  }
+}
+
+section#contact .megabutton-blue img {
+  width: 100px;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  section#contact .megabutton-blue img {
+    width: 80px;
+  }
 }
 
 /* ----------------------------------------------
