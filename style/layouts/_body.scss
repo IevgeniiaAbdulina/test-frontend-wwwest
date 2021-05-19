@@ -28,6 +28,17 @@ section#products {
         }
     }
 
+    h5 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #45494F;
+        @media (min-width: 600px) {
+            font-size: 19px;
+        }
+    }
+
     #products-content {
         .card {
             background: #FFFFFF;
@@ -71,9 +82,12 @@ div#main-features-wrapper {
         }
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 55px;
-            line-height: 35.5px;
+            line-height: 35px;
+            @media (min-width: 600px) {
+                font-size: 18px;
+            }
         }
     }
 }
@@ -232,6 +246,54 @@ section#contact {
 
             @media (min-width: 600px) {
                 width: 80px;
+            }
+        }
+    }
+}
+
+//  ==== FOOTER ====
+
+footer#footer {
+    padding: 45px 32px 60px;
+    @media (min-width: 600px) {
+        padding: 50px 0;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #A3ADBA;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #9EABBB;
+
+        .email-link {
+            color: #2E75FF;
+        }
+    }
+
+    #shortlinks-links {
+        #shortlinks-links-right {
+            a{
+                @media (min-width: 600px){
+                    padding-left: 100px;
+                }
+            }
+        }
+        a {
+            font-size: 16px;
+            line-height: 32px;
+            color: #9EABBB;
+            padding-bottom: 12px;
+            @media (min-width: 600px) {
+                padding: 0;
             }
         }
     }

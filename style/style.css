@@ -63,7 +63,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 4.42px;
   text-transform: uppercase;
   color: #020303;
@@ -135,6 +135,20 @@ section#products h3 {
   }
 }
 
+section#products h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #45494F;
+}
+
+@media (min-width: 600px) {
+  section#products h5 {
+    font-size: 19px;
+  }
+}
+
 section#products #products-content .card {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
@@ -181,9 +195,15 @@ div#main-features-wrapper div.card-body {
 }
 
 div#main-features-wrapper div.card-body p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 55px;
-  line-height: 35.5px;
+  line-height: 35px;
+}
+
+@media (min-width: 600px) {
+  div#main-features-wrapper div.card-body p {
+    font-size: 18px;
+  }
 }
 
 div#images-carousel {
@@ -360,6 +380,55 @@ section#contact .megabutton-blue img {
 @media (min-width: 600px) {
   section#contact .megabutton-blue img {
     width: 80px;
+  }
+}
+
+footer#footer {
+  padding: 45px 32px 60px;
+}
+
+@media (min-width: 600px) {
+  footer#footer {
+    padding: 50px 0;
+  }
+}
+
+footer#footer h6 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #A3ADBA;
+}
+
+footer#footer p {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #9EABBB;
+}
+
+footer#footer p .email-link {
+  color: #2E75FF;
+}
+
+@media (min-width: 600px) {
+  footer#footer #shortlinks-links #shortlinks-links-right a {
+    padding-left: 100px;
+  }
+}
+
+footer#footer #shortlinks-links a {
+  font-size: 16px;
+  line-height: 32px;
+  color: #9EABBB;
+  padding-bottom: 12px;
+}
+
+@media (min-width: 600px) {
+  footer#footer #shortlinks-links a {
+    padding: 0;
   }
 }
 

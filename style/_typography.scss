@@ -27,9 +27,8 @@ body {
 h1 {
     font-family: $font-family-headings;
     font-style: normal;
-    font-weight: $bold;
+    font-weight: 700;
     font-size: 34px;
-    // line-height: 18px;
     letter-spacing: -0.4px;
     color: rgb(22, 82, 172);
 
@@ -42,9 +41,8 @@ h1 {
 h2 {
     font-family: $font-family-headings;
     font-style: normal;
-    font-weight: $bold;
+    font-weight: 700;
     font-size: 18px;
-    // line-height: 40px;
     letter-spacing: 2.42px;
     text-transform: uppercase;
     color: rgb(22, 82, 172);
@@ -53,8 +51,7 @@ h2 {
 //  Secondary Headings Font
 h3 {
     font-size: 20px;
-    font-weight: $medium;
-    // line-height: 40px;
+    font-weight: 700;
     letter-spacing: 4.42px;
     text-transform: uppercase;
     color: rgb(2, 3, 3);
@@ -68,7 +65,7 @@ h3 {
 p {
     font-family: $font-family-paragraphs;
     font-style: normal;
-    font-weight: $regular;
+    font-weight: 400;
     font-size: $font-size-paragraphs;
     // line-height: 32px;
     color: rgb(69, 73, 79);
