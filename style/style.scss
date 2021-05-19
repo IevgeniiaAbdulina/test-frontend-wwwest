@@ -16,11 +16,6 @@ Project: Test Task Frontend
     + Header
     + Body
     + Footer
-
-* Components
-    + Buttons
-    + Icons
-    + Cards
     
 ---------------------------------------------- */
 
@@ -38,13 +33,6 @@ Project: Test Task Frontend
         ==== Layouts ==== */
     
     @import "layouts/main";
-    // @import "layouts/header";
+    @import "layouts/header";
     @import "layouts/body";
     @import "layouts/footer";
-    
-    /* ----------------------------------------------
-        ==== Components ==== */
-    
-    // @import "components/buttons";
-    // @import "components/icons";
-    // @import "components/cards";

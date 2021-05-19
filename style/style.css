@@ -15,11 +15,6 @@ Project: Test Task Frontend
     + Header
     + Body
     + Footer
-
-* Components
-    + Buttons
-    + Icons
-    + Cards
     
 ---------------------------------------------- */
 /* ---------------------------------------------- 
@@ -103,7 +98,36 @@ p {
 body {
   max-width: 1440px;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 0 16px;
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: 0 auto;
+  }
+}
+
+nav#custom-nav-style a.active {
+  border: 2px solid #EAEDF5;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.32px;
+  color: #2E75FF;
+}
+
+@media (min-width: 600px) {
+  nav#custom-nav-style a.nav-link {
+    padding: 8px 16px;
+  }
 }
 
 section#about-us {
@@ -598,7 +622,4 @@ footer#footer #shortlinks-links a {
     padding: 0;
   }
 }
-
-/* ----------------------------------------------
-        ==== Components ==== */
 /*# sourceMappingURL=style.css.map */

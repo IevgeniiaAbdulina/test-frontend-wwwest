@@ -10,22 +10,22 @@
     <title>Test task | Abdulina</title>
 </head>
 <body>
-    <div class="container d-flex flex-column justify-content-between flex-md-row align-items-center px-md-4 mb-3 bg-white border-bottom box-shadow">
-        <a class="navbar-brand" href="#">
-            <img src="./style/img/logo-img.png" alt="company logo image">
-        </a>
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container border-bottom box-shadow">
+        <nav id="custom-nav-style" class="navbar navbar-expand-lg navbar-light b">
             <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./style/img/logo-img.png" alt="company logo image">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                    <a class="nav-link" href="#">Über Uns</a>
-    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <ul class="navbar-nav ">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#about-us">Über Uns</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#products" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Produkte
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -35,7 +35,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#main-features-container" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Peripherietechnik
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -54,14 +54,20 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#images-carousel">Klimatechnik</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#often-viewed">Kontakt</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="#contact">Presse</a>
+                        </li>
                     </ul>
-                    <a class="nav-link" href="#">Klimatechnik</a>
-                    <a class="nav-link" href="#">Kontakt</a>
-                    <a class="nav-link" href="#">Presse</a>
-                    </div>
+                    
                 </div>
             </div>
-        </nav>   
+        </nav>     
     </div>
     
     <main>

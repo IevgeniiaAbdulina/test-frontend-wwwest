@@ -9,5 +9,8 @@
 body {
     max-width: 1440px;
     min-height: 100vh;
-    margin: 0 auto; 
+    margin: 0 16px; 
+    @media (min-width: 600px) {
+        margin: 0 auto;
+    }
 }
