@@ -186,6 +186,45 @@ div#main-features-wrapper div.card-body p {
   line-height: 35.5px;
 }
 
+div#images-carousel {
+  margin: 74px 0 0;
+}
+
+@media (min-width: 600px) {
+  div#images-carousel div#carousel-img-box {
+    height: 812px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+div#images-carousel #custom-carousel-indicators {
+  margin-bottom: 0;
+}
+
+div#images-carousel #custom-carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  background: #80ABFF;
+  opacity: 0.35;
+  border: 1px solid #0045AC;
+  border-radius: 50%;
+  margin: 0 14px;
+}
+
+div#images-carousel #custom-carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#005BE4), to(rgba(0, 96, 241, 0))), #004FC7;
+  background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
+  border: 1px solid #BED8FF;
+  border-radius: 50%;
+}
+
 /* ----------------------------------------------
         ==== Components ==== */
 /*# sourceMappingURL=style.css.map */
