@@ -29,9 +29,9 @@ h1 {
     font-style: normal;
     font-weight: $bold;
     font-size: 34px;
-    line-height: 18px;
+    // line-height: 18px;
     letter-spacing: -0.4px;
-    // color: #1652AC;
+    color: rgb(22, 82, 172);
 
     @media (max-width: 980px) {
     font-size: 48px;
@@ -44,20 +44,20 @@ h2 {
     font-style: normal;
     font-weight: $bold;
     font-size: 18px;
-    line-height: 40px;
+    // line-height: 40px;
     letter-spacing: 2.42px;
-    // text-transform: uppercase;
-    // color: #1652AC;
+    text-transform: uppercase;
+    color: rgb(22, 82, 172);
 }
 
 //  Secondary Headings Font
 h3 {
     font-size: 20px;
     font-weight: $medium;
-    line-height: 40px;
+    // line-height: 40px;
     letter-spacing: 4.42px;
-    // text-transform: uppercase;
-    // color: #020303;
+    text-transform: uppercase;
+    color: rgb(2, 3, 3);
 
     @media (max-width: 980px) {
     font-size: 28px;
@@ -70,6 +70,6 @@ p {
     font-style: normal;
     font-weight: $regular;
     font-size: $font-size-paragraphs;
-    line-height: 32px;
-    // color: #45494F;
+    // line-height: 32px;
+    color: rgb(69, 73, 79);
 }

@@ -40,8 +40,8 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
-  line-height: 18px;
   letter-spacing: -0.4px;
+  color: #1652ac;
 }
 
 @media (max-width: 980px) {
@@ -56,15 +56,17 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 40px;
   letter-spacing: 2.42px;
+  text-transform: uppercase;
+  color: #1652ac;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 40px;
   letter-spacing: 4.42px;
+  text-transform: uppercase;
+  color: #020303;
 }
 
 @media (max-width: 980px) {
@@ -78,7 +80,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 32px;
+  color: #45494f;
 }
 
 /* ----------------------------------------------
@@ -94,6 +96,77 @@ body {
   max-width: 1445px;
   min-height: 100vh;
   margin: 0 auto;
+}
+
+section#products {
+  padding: 68px 0 82px;
+  background: #FBFBFC;
+}
+
+@media (max-width: 600px) {
+  section#products {
+    padding: 27px 0 65px;
+  }
+}
+
+#specialty {
+  overflow: hidden;
+}
+
+#specialty .ic-hot-cold {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  #specialty .ic-hot-cold {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+#main-features-container {
+  margin-top: 57px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
+#main-features-container h3 {
+  padding: 46px 0 37px;
+}
+
+@media (min-width: 600px) {
+  #main-features-container h3 {
+    padding: 43px 0 64px;
+  }
+}
+
+div#main-features-wrapper {
+  padding: 0;
+}
+
+div#main-features-wrapper div.card-body {
+  padding: 0 16px 20px;
+}
+
+@media (min-width: 600px) {
+  div#main-features-wrapper div.card-body #main-features-col-left {
+    padding: 0 27px 0 52px;
+  }
+}
+
+@media (min-width: 600px) {
+  div#main-features-wrapper div.card-body #main-features-col-right {
+    padding: 0 54px 0 27px;
+  }
+}
+
+div#main-features-wrapper div.card-body p {
+  font-size: 18px;
+  margin-bottom: 55px;
+  line-height: 35.5px;
 }
 
 /* ----------------------------------------------

@@ -1,0 +1,65 @@
+
+section#products {
+    padding: 68px 0 82px;
+    background: #FBFBFC;
+
+    @media (max-width: 600px) {
+        padding: 27px 0 65px;
+    }
+}
+
+#specialty {
+    overflow: hidden;
+
+    .ic-hot-cold {
+        transform: scale(1.2);
+
+        @media (max-width: 600px) {
+            transform: scale(0.7);
+        }
+        
+    }
+}
+
+// ==== MAIN FEATURES SECTION ====
+#main-features-container {
+    margin-top: 57px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+
+    h3 {
+        padding: 46px 0 37px;
+        @media (min-width: 600px) {
+            padding: 43px 0 64px;
+        }
+    }
+}
+
+div#main-features-wrapper {
+    padding: 0;
+    @media (max-width: 600px) {
+
+    }
+
+    div.card-body {
+        padding: 0 16px 20px;
+        
+        #main-features-col-left {
+            @media (min-width: 600px) {
+                padding: 0 27px 0 52px;
+            }
+        }
+        #main-features-col-right {
+            @media (min-width: 600px) {
+                padding: 0 54px 0 27px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 55px;
+            line-height: 35.5px;
+        }
+    }
+}
