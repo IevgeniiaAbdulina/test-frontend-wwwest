@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://github.com/IevgeniiaAbdulina/test-frontend-wwwest#">
       Solution
     </a>
   </h3>
@@ -31,8 +31,8 @@
 
 ## Overview
 
-<img src="#" width="600">
-<img src="#" width="360">
+<img src="/style/img/screenshots/desktop-img.png" width="600">
+<img src="/style/img/screenshots/mobile-img-2.png" width="160">
 
 ### The challenge
 
