@@ -1,13 +1,4 @@
 
-section#products {
-    padding: 68px 0 82px;
-    background: #FBFBFC;
-
-    @media (max-width: 600px) {
-        padding: 27px 0 65px;
-    }
-}
-
 #specialty {
     overflow: hidden;
 
@@ -20,6 +11,33 @@ section#products {
         
     }
 }
+
+// ==== PRODUCTS SECTION  ==== 
+section#products {
+    padding: 27px 0 65px;
+    background: #FBFBFC;
+
+    @media (min-width: 600px) {
+        padding: 68px 0 82px;
+    }
+
+    h3 {
+        margin: 0 0 42px;
+        @media (min-width: 600px) {
+            margin: 0 0 42px;
+        }
+    }
+
+    #products-content {
+        .card {
+            background: #FFFFFF;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 16px;
+        }
+    }
+}
+
+
 
 // ==== MAIN FEATURES SECTION ====
 #main-features-container {
@@ -44,7 +62,7 @@ div#main-features-wrapper {
 
     div.card-body {
         padding: 0 16px 20px;
-        
+
         #main-features-col-left {
             @media (min-width: 600px) {
                 padding: 0 27px 0 52px;

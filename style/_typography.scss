@@ -59,8 +59,8 @@ h3 {
     text-transform: uppercase;
     color: rgb(2, 3, 3);
 
-    @media (max-width: 980px) {
-    font-size: 28px;
+    @media (min-width: 600px) {
+      font-size: 28px;
   }
 }
 
