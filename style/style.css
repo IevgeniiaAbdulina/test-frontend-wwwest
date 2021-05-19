@@ -187,7 +187,11 @@ div#main-features-wrapper div.card-body p {
 }
 
 div#images-carousel {
-  margin: 74px 0 0;
+  margin-top: 74px;
+}
+
+div#images-carousel div#carousel-img-box {
+  height: 480px;
 }
 
 @media (min-width: 600px) {
@@ -203,7 +207,13 @@ div#images-carousel {
 }
 
 div#images-carousel #custom-carousel-indicators {
-  margin-bottom: 0;
+  bottom: -30px;
+}
+
+@media (min-width: 600px) {
+  div#images-carousel #custom-carousel-indicators {
+    margin-bottom: 0;
+  }
 }
 
 div#images-carousel #custom-carousel-indicators button {
@@ -223,6 +233,31 @@ div#images-carousel #custom-carousel-indicators .active {
   background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
   border: 1px solid #BED8FF;
   border-radius: 50%;
+}
+
+div#often-viewed {
+  margin-top: 62px;
+}
+
+@media (min-width: 600px) {
+  div#often-viewed {
+    margin-top: 80px;
+  }
+}
+
+div#often-viewed .megabutton-blue {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0C5CD6), to(rgba(0, 56, 140, 0))), #004FC7;
+  background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+  border-style: inset;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+  border-radius: 12px;
+  padding: 24px;
+  color: #FAFBFE;
+  text-transform: uppercase;
 }
 
 /* ----------------------------------------------
