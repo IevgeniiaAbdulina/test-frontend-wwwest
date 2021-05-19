@@ -57,9 +57,16 @@ h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  line-height: 40px;
   letter-spacing: 2.42px;
   text-transform: uppercase;
   color: #1652ac;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: 20px;
+  }
 }
 
 h3 {
@@ -94,25 +101,184 @@ p {
 }
 
 body {
-  max-width: 1445px;
+  max-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
 }
 
-#specialty {
-  overflow: hidden;
+section#about-us {
+  margin-top: 56px;
 }
 
-#specialty .ic-hot-cold {
+@media (min-width: 600px) {
+  section#about-us {
+    margin-top: 100px;
+  }
+}
+
+section#about-us #about-us-wrapper .divider {
+  width: 228px;
+  height: 7px;
+  background: #EDEFF3;
+  margin: 25px 0 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 600px) {
+  section#about-us #about-us-wrapper .divider {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin: 55px 0;
+  }
+}
+
+@media (min-width: 600px) {
+  section#about-us #about-us-wrapper #image-1 {
+    padding: 20px 0 0 150px;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+section#about-us #about-us-wrapper #about-us-heading h1 {
+  font-size: 34px;
+  line-height: 180%;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #1652AC;
+}
+
+@media (min-width: 600px) {
+  section#about-us #about-us-wrapper #about-us-heading h1 {
+    font-size: 48px;
+    text-align: left;
+  }
+}
+
+section#about-us p#about-us-content-small,
+section#about-us p#about-us-content-mid {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #020303;
+}
+
+@media (min-width: 600px) {
+  section#about-us #energy-efficiency {
+    margin: 108px 0 67px 0;
+  }
+}
+
+@media (min-width: 600px) {
+  section#about-us #energy-efficiency #energy-efficiency-wrapper {
+    padding: 0 4% 0 10%;
+  }
+}
+
+section#about-us #energy-efficiency h2 {
+  padding: 0 20px;
+}
+
+@media (min-width: 600px) {
+  section#about-us #energy-efficiency h2 {
+    padding: 0;
+  }
+}
+
+section#about-us #energy-efficiency p {
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+section#about-us #energy-efficiency img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  margin: 18px 0;
 }
 
-@media (max-width: 600px) {
-  #specialty .ic-hot-cold {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+section#about-us #standards-wrapper {
+  background: -webkit-gradient(linear, left top, left bottom, from(#163DA2), to(#003584));
+  background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+  padding: 0 16px;
+}
+
+@media (min-width: 600px) {
+  section#about-us #standards-wrapper {
+    padding: 0 18%;
   }
+}
+
+section#about-us #standards-wrapper h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  letter-spacing: 2.42px;
+  color: #FBFDFF;
+  margin: 40px 0 18px;
+}
+
+section#about-us #standards-wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #FBFDFF;
+  margin-bottom: 28px;
+}
+
+section#about-us div#specialty {
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding: 0 16px;
+}
+
+@media (min-width: 600px) {
+  section#about-us div#specialty {
+    margin: 90px 0 112px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  section#about-us div#specialty .container {
+    margin: 0 60px;
+  }
+}
+
+section#about-us div#specialty h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 2.42px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 600px) {
+  section#about-us div#specialty h2 {
+    text-align: left;
+  }
+}
+
+section#about-us div#specialty p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+@media (min-width: 600px) {
+  section#about-us div#specialty p em {
+    font-style: normal;
+  }
+}
+
+section#about-us div#specialty p small {
+  margin-bottom: 48px;
 }
 
 section#products {
@@ -407,7 +573,7 @@ footer#footer p {
   font-size: 17px;
   line-height: 32px;
   letter-spacing: -0.4px;
-  color: #9EABBB;
+  color: #9eabbb;
 }
 
 footer#footer p .email-link {
