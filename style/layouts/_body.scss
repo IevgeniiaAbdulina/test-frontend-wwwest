@@ -1,6 +1,6 @@
 // ==== ABOUT US SECTION ====
 section#about-us {
-    
+
     // ABOUT US HEADER
     margin-top: 56px;
     @media (min-width: 600px) {
@@ -124,16 +124,17 @@ section#about-us {
             }
         }
         
-    
-        // div#ic-hot-cold {
-        //     // width: 100%;
-        //     // height: 260px;
+        div#ic-hot-cold {
+            @media (min-width: 600px) {
+                width: 32%;
+                height: auto;
+            }
 
-        //     // img {
-        //     //     width: 130%;
-        //     //     height: auto;
-        //     // }
-        // }
+            img {
+                width: 130%;
+                height: auto;
+            }
+        }
     
         h2 {
             font-weight: bold;

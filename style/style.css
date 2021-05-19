@@ -273,6 +273,18 @@ section#about-us div#specialty {
   }
 }
 
+@media (min-width: 600px) {
+  section#about-us div#specialty div#ic-hot-cold {
+    width: 32%;
+    height: auto;
+  }
+}
+
+section#about-us div#specialty div#ic-hot-cold img {
+  width: 130%;
+  height: auto;
+}
+
 section#about-us div#specialty h2 {
   font-weight: bold;
   font-size: 18px;
