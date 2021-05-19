@@ -1,0 +1,47 @@
+//  ==== FOOTER ====
+
+footer#footer {
+    padding: 45px 32px 60px;
+    @media (min-width: 600px) {
+        padding: 50px 0;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: $color-footer-header-grey;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #9EABBB;
+
+        .email-link {
+            color: $color-ink-blue;
+        }
+    }
+
+    #shortlinks-links {
+        #shortlinks-links-right {
+            a{
+                @media (min-width: 600px){
+                    padding-left: 100px;
+                }
+            }
+        }
+        a {
+            font-size: 16px;
+            line-height: 32px;
+            color: $color-footer-paragraph-grey;
+            padding-bottom: 12px;
+            @media (min-width: 600px) {
+                padding: 0;
+            }
+        }
+    }
+}

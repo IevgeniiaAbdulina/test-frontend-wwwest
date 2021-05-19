@@ -24,6 +24,7 @@ Project: Test Task Frontend
 ---------------------------------------------- */
 /* ---------------------------------------------- 
     ==== Template variables ==== */
+/* ==== Variables ==== */
 /* ----------------------------------------------
         ==== Core styles ==== */
 /* ==== Typography ====  */
@@ -398,7 +399,7 @@ footer#footer h6 {
   font-size: 17px;
   line-height: 32px;
   letter-spacing: -0.4px;
-  color: #A3ADBA;
+  color: #a3adba;
 }
 
 footer#footer p {
@@ -410,7 +411,7 @@ footer#footer p {
 }
 
 footer#footer p .email-link {
-  color: #2E75FF;
+  color: #2e75ff;
 }
 
 @media (min-width: 600px) {
@@ -422,7 +423,7 @@ footer#footer p .email-link {
 footer#footer #shortlinks-links a {
   font-size: 16px;
   line-height: 32px;
-  color: #9EABBB;
+  color: #9eabbb;
   padding-bottom: 12px;
 }
 

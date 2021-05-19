@@ -27,7 +27,7 @@ Project: Test Task Frontend
 /* ---------------------------------------------- 
     ==== Template variables ==== */
 
-    // @import "variables";
+    @import "variables";
 
     /* ----------------------------------------------
         ==== Core styles ==== */
@@ -40,7 +40,7 @@ Project: Test Task Frontend
     @import "layouts/main";
     // @import "layouts/header";
     @import "layouts/body";
-    // @import "layouts/footer";
+    @import "layouts/footer";
     
     /* ----------------------------------------------
         ==== Components ==== */
